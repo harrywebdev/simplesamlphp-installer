@@ -1,0 +1,21 @@
+{
+    "name": "uon/simplesamlinstaller",
+    "description": "Installing script for simplesamlphp/simplesamlphp package",
+    "type": "library",
+    "require": {
+        "symfony/filesystem": "^2.7.2",
+        "simplesamlphp/simplesamlphp": "*",
+        "vlucas/phpdotenv": "~1.0"
+    },
+    "autoload": {
+        "psr-4": { "UoN\\SimpleSamlInstaller\\": "" }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "UoN",
+            "email": "harry.birch@nottingham.ac.uk"
+        }
+    ],
+    "minimum-stability": "dev"
+}
