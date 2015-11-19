@@ -29,3 +29,11 @@ If you do not know what files to put in these folders, it's basically copy+modif
 - **metadata** comes from `simplesamlphp/metadata`
 - **cert** has to include `*.pem` and `*.crt` files
 - **modules** any modules you want to put in (like *uon:authorize*)
+
+3) run with `composer install` (and/or with update) - in your `composer.json`
+
+    "scripts": {
+        "post-install-cmd": [
+            "UoN\\SimpleSamlInstaller\\SimpleSamlInstaller::run"
+        ]
+    }
